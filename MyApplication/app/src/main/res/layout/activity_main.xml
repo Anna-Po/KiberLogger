@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20sp">
+
+        <TextView
+            android:id="@+id/xlValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ylValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zlValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLayout"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/xValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/yValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/zValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLayout"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/xlGyroValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ylGyroValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/zlGyroValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdLayout"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/xGyroValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/yGyroValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/zGyroValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fifthLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourthLayout"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/xlMagnoValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ylMagnoValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/zlMagnoValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sixthLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fifthLayout"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/xMagnoValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/yMagnoValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/zMagnoValue"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/firstbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/secondbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>
